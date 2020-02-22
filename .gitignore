@@ -1,0 +1,4 @@
+.vscode/
+**/__pycache__/
+token_photoslibrary_v1.pickle
+client_secret_GoogleAPIExercise_PhotoDesktopApp.json
