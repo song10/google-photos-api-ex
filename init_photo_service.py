@@ -1,6 +1,7 @@
 import os
 from Google import Create_Service
-import pandas
+
+# https://learndataanalysis.org/getting-started-with-google-photos-api-and-python-part-1/
 
 API_NAME = 'photoslibrary'
 API_VERSION = 'v1'
