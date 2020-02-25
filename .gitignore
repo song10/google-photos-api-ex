@@ -2,3 +2,6 @@
 **/__pycache__/
 token_photoslibrary_v1.pickle
 client_secret_GoogleAPIExercise_PhotoDesktopApp.json
+build/
+dist/
+*.spec
