@@ -1,5 +1,10 @@
-from init_photo_service import service
+from my_service import init_google_photos_api_service
+
 import pandas as pd
+
+# https://learndataanalysis.org/albums-resource-google-photos-api-and-python-part-3/
+
+service = init_google_photos_api_service()
 
 
 """

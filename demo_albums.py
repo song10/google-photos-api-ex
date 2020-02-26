@@ -1,7 +1,10 @@
-from init_photo_service import service
+from my_service import init_google_photos_api_service
+
 import pandas as pd
 
 # https://learndataanalysis.org/albums-resource-google-photos-api-and-python-part-2/
+
+service = init_google_photos_api_service()
 
 """
 list method
@@ -161,7 +164,7 @@ while nextPageToken:
 
 df_albums = pd.DataFrame(lstAlbums)
 
-album_id = df_albums['id'][0] # 'My Family Photos'
+album_id = df_albums['id'][0]  # 'My Family Photos'
 
 
 response = service.mediaItems().list(pageSize=25).execute()

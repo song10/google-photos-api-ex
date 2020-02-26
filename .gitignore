@@ -5,3 +5,5 @@ client_secret_GoogleAPIExercise_PhotoDesktopApp.json
 build/
 dist/
 *.spec
+*.pickle
+
